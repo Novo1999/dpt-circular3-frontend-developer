@@ -1,3 +1,4 @@
 import { createContext } from 'react'
 
-export const FlightContext = createContext(null)
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const FlightContext = createContext<any>(null)
